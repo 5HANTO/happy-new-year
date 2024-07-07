@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Google Font Merriweather  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Merriweather", serif;
+}
+
+/* Website Banner Section Styles */
+
+.banner-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 30px;
+    min-height: 600px;
+    background-image: url(/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0,0.5);
+    background-blend-mode: overlay;
+
+}
+
+.banner-content p, h1{
+    color: white;
+}
+.banner-content{
+    width: 632px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content p{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+/* 65% off Section Styles */ 
+
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500; 
+    text-align: center;
+    margin-bottom: 16px;
+}
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+.second-section-image{
+    width: 802.9px;
+    height: 500px;
+}
+.second-section-image img{
+    width: 100%;
+    height: 100%;
+}
+/* Midnight Section Styles  */
+
+.midnight-section-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-image:
+    linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+    url(/images/Vectorrr.png) ;
+    border-radius: 16px;
+}
+
+.midnight-section-content{
+    width: 542px;
+    height: 176px;
+    text-align:start;
+
+}
+.midnight-section-content{
+    padding: 126px 552px 298px 126px;
+}
+.midnight-section-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.midnight-section-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+.midnight-section-content button{
+    width: 120px;
+    height: 24px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    padding-left: 20px;
+}
+.midnight-section-content a{
+    text-decoration: none;
+    color: white;
+}
